@@ -19,7 +19,7 @@ def verifyLocation(question):
 
     
         #Created connection with API
-        complete_api_link = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+"2c8c9d4d3f1a476186105cc3d560ec87"
+        complete_api_link = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+"MYKEY"
         api_link = requests.get(complete_api_link)
         #Stores API data into a var
         api_data = api_link.json()
